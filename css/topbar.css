@@ -1,0 +1,151 @@
+body
+{
+margin:0px;
+background-color:#eee;
+font-family:'Open Sans',sans-serif;
+}
+form
+{
+margin:0px;
+}
+a
+{
+color:#fff;
+text-decoration:none;
+}
+div#topbar
+{
+width:100%;
+float:left;
+position:fixed;
+top:0px;
+left:0px;
+background-color:#fff;
+line-height:50px;
+text-align:center;
+color:#000;
+}
+div.topbarrow
+{
+width:100%;
+height:50px;
+float:left;
+border-bottom:1px solid #eee;
+}
+div.topbarinr
+{
+width:960px;
+height:50px;
+margin:0px auto;
+border-left:1px solid #eee;
+}
+a#topbarinrlogo
+{
+display:none;
+}
+a#topbarlogo
+{
+width:50px;
+height:50px;
+float:left;
+color:#fff;
+font-size:16px;
+cursor:pointer;
+background-color:#6599FF;
+}
+div#topbarsearch
+{
+width:299px;
+height:50px;
+float:left;
+border-right:1px solid #eee;
+}
+div#topbarright
+{
+width:393px;
+height:50px;
+float:right;
+border-right:1px solid #eee;
+border-left:1px solid #eee;
+}
+div.topbarrightitem_off,div.topbarrightitem_on
+{
+width:50px;
+height:50px;
+float:right;
+border-right:1px solid #eee;
+}
+div.topbarrightitem_on
+{
+height:49px;
+border-bottom:1px solid #f00;
+}
+div#topbarrightuser
+{
+width:240px;
+height:50px;
+float:right;
+}
+img#topbarrightuserpic
+{
+width:39px;
+height:40px;
+float:right;
+padding:5px;
+cursor:pointer;
+border-left:1px solid #eee;
+}
+input#topbarsearch
+{
+width:248px;
+height:30px;
+margin:10px 0px;
+padding:0px;
+float:left;
+background-color:#fff;
+outline:none;
+border:none;
+}
+div.topbarinritem,div.topbarinritemactive
+{
+width:90px;
+height:29px;
+margin:10px 0px 10px 10px;
+border-bottom:1px solid #6599FF;
+float:left;
+line-height:29px;
+cursor:pointer;
+}
+div.topbarinritem:hover
+{
+color:#6599FF;
+}
+div.topbarinritemactive
+{
+background-color:#6599FF;
+color:#fff;
+}
+div#topbarspacer
+{
+width:100%;
+height:102px;
+float:left;
+}
+@media(max-width:1075px)
+{
+	a#topbarlogo
+	{
+		display:none;
+	}
+	a#topbarinrlogo
+	{
+		display:block;
+		width:50px;
+		height:50px;
+		float:left;
+		color:#fff;
+		font-size:16px;
+		cursor:pointer;
+		background-color:#6599FF;
+	}
+}

@@ -1,0 +1,34 @@
+div.icon
+{
+width:30px;
+height:30px;
+float:left;
+margin:10px;
+cursor:pointer;
+background-image:url('https://ramity.com/img/static/icons.png');
+background-size:940px 2782px;
+}
+div.icon:hover
+{
+background-color:#f7f7f7;
+}
+div#searchicon
+{
+background-position:-201px -166px;
+}
+div#alerticon_on
+{
+background-position:-6px -556px;
+}
+div#alerticon_off
+{
+background-position:-747px -517px;
+}
+div#requesticon
+{
+background-position:-825px -10px;
+}
+div#inboxicon
+{
+background-position:-45px -478px;
+}

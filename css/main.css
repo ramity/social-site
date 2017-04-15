@@ -1,0 +1,105 @@
+div#content
+{
+width:100%;
+height:750px;
+float:left;
+text-align:center;
+background-color:#fff;
+background-image:url('https://imgur.com/OgPhGn2.jpg');
+background-size:100% 100%;
+background-attachment:fixed;
+background-position:center;
+background-repeat:no-repeat;
+border-bottom:2px solid #222;
+}
+div#contentoverlay
+{
+width:100%;
+height:750px;
+float:left;
+color:#fff;
+background-color:rgba(0,0,0,0.25);
+box-shadow:inset 0px 0px 100px #000;
+}
+div#contentinr
+{
+width:960px;
+display:inline-block;
+margin:0px auto;
+text-align:left;
+}
+div#contentbanner
+{
+width:640px;
+height:750px;
+float:left;
+}
+div#contentwelcome
+{
+width:640px;
+height:100px;
+float:left;
+font-size:70px;
+margin-top:100px;
+}
+div#contentwelcometext
+{
+width:640px;
+height:50px;
+float:left;
+font-size:25px;
+}
+div#contentwelcomedescription
+{
+width:550px;
+height:125px;
+float:left;
+font-size:30px;
+margin:200px 90px 177px 0px;
+}
+form#contentform
+{
+width:320px;
+height:750px;
+float:left;
+}
+div.contentformheader
+{
+width:320px;
+height:40px;
+float:left;
+color:#fff;
+line-height:40px;
+font-size:20px;
+}
+input.contentformtext
+{
+width:320px;
+height:40px;
+float:left;
+background-color:rgba(0,0,0,0.5);
+border:none;
+margin:0px 0px 10px 0px;
+text-indent:7px;
+outline:none;
+color:#fff;
+border-radius:5px;
+font-family:'Open Sans',sans-serif;
+}
+input.contentformtext:focus
+{
+box-shadow:0px 0px 3px rgba(255,255,255,0.4);
+}
+input.contentformsubmit
+{
+width:320px;
+height:40px;
+float:left;
+background-color:#335094;
+border:none;
+margin:0px 0px 10px 0px;
+outline:none;
+color:#fff;
+border-radius:5px;
+font-family:'Open Sans',sans-serif;
+}
